@@ -1,0 +1,6 @@
+class AddCharacters < ActiveRecord::migrations
+def change
+
+end
+end
+end
