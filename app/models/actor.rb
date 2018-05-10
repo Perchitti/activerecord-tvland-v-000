@@ -10,5 +10,6 @@ has_many :shows, through: :characters
     characters.collect do |character|
       "#{character.name} - #{character.show.name}"
   end
+end
 
 end
